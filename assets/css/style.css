@@ -13,6 +13,35 @@ img {
     display: block;
 }
 
-@media (min-width: 50em) {
-    
+body {
+    background-color: #222831;
+}
+
+.columns {
+    background-color: #393e46;
+    border: 2px solid #0092ca;
+}
+
+.grid-columns {
+    display: grid;
+    gap: 1rem;
+    height: 10em;
+}
+
+@media (min-width: 10em) {
+    .grid-columns {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 40em) {
+    .grid-columns {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 60em) {
+    .grid-columns {
+        grid-template-columns: repeat(6, 1fr);
+    }
 }
