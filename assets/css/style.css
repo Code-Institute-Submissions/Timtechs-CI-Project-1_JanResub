@@ -91,3 +91,17 @@ body {
         top: -10vh;
     }
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #393e46;
+    height: 40px;
+    text-align: center;
+}
+
+footer a {
+    color: #0092ca;
+    font-size: 200%;
+}
