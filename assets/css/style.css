@@ -105,3 +105,8 @@ footer a {
     color: #0092ca;
     font-size: 200%;
 }
+
+.columns a {
+    color: #eeeeee;
+    text-decoration: none;
+}
