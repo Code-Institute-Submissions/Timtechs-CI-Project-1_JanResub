@@ -51,6 +51,7 @@ body {
     border: 2px solid #0092ca;
     color: #eeeeee;
     padding: 5px;
+    text-align: center;
 }
 
 .grid-columns {
@@ -96,17 +97,36 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #393e46;
+    background-color: #0092ca;
     height: 40px;
     text-align: center;
 }
 
 footer a {
-    color: #0092ca;
+    color: #393e46;
     font-size: 200%;
 }
 
 .columns a {
     color: #eeeeee;
     text-decoration: none;
+}
+
+.courses {
+    background-color: #393e46;
+    border: 2px solid #0092ca;
+    color: #eeeeee;
+    padding: 5px;
+    text-align: center;
+}
+
+.courses-outer {
+    position: relative;
+    display: grid;
+    gap: 1rem;
+    height: 10em;
+    top: -20vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
 }
