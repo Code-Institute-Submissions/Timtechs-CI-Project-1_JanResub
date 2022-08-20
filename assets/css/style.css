@@ -9,11 +9,11 @@ html, body {
 }
 
 h1 {
-    position: absolute;
+    position: relative;
     color: #0092ca;
-    font-size: 20px;
-    top: 30px;
-    
+    top: 0vh;
+    font-size: 8vh;
+    text-align: center;
 }
 
 img {
@@ -24,8 +24,9 @@ img {
 }
 
 #top-nav {
-    position: absolute;
-    top: 55px;
+    position: relative;
+    text-align: center;
+    top: 12vh;
     right: 20px;
 }
 
@@ -35,7 +36,10 @@ img {
 }
 
 .link {
-    color: #eeeeee;
+    color: #0092ca;
+    background-color: #393e46;
+    margin: 10px;
+    font-size: 4vh;
 }
 
 body {
@@ -48,25 +52,30 @@ body {
 }
 
 .grid-columns {
+    position: relative;
     display: grid;
     gap: 1rem;
     height: 10em;
+    top: -20vh;
 }
 
 @media (min-width: 10em) {
     .grid-columns {
         grid-template-columns: repeat(1, 1fr);
+        top: 0;
     }
 }
 
 @media (min-width: 40em) {
     .grid-columns {
         grid-template-columns: repeat(3, 1fr);
+        top: -10vh;
     }
 }
 
 @media (min-width: 60em) {
     .grid-columns {
         grid-template-columns: repeat(6, 1fr);
+        top: -25vh;
     }
 }
