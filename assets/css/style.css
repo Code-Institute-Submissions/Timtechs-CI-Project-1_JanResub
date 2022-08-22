@@ -97,6 +97,7 @@ body {
 #page-container {
     position: relative;
     min-height: 100vh;
+    overflow: auto;
 }
 
 #content-wrap {
@@ -124,6 +125,7 @@ body {
     color: #eeeeee;
     padding: 5px;
     text-align: center;
+    text-decoration: none;
 }
 
 .courses-outer {
@@ -137,6 +139,17 @@ body {
     margin-right: auto;
 }
 
-.img {
-    bottom: 0;
+.courses a {
+    color: #eeeeee;
+    text-decoration: none;
+} 
+
+#soundpage-container {
+    position: relative;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+#sound-content-wrap {
+    padding-bottom: 14rem;
 }
