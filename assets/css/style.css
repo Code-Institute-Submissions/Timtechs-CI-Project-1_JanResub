@@ -114,6 +114,10 @@ body {
     font-size: 200%;
 }
 
+#footer a {
+    color: #222831;
+}
+
 .columns a {
     color: #eeeeee;
     text-decoration: none;
@@ -152,4 +156,12 @@ body {
 
 #sound-content-wrap {
     padding-bottom: 14rem;
+}
+
+a > h2 {
+    font-size: 170%;
+}
+
+.video {
+    text-align: center;
 }

@@ -22,7 +22,7 @@ Link:
 
 Credits
 Icons: Font Awesome
-Code inspiration: W3schools, Stackoverflow, Kevin Powell, freecodecamp.org
+Code inspiration: W3schools, Stackoverflow, Kevin Powell, freecodecamp.org, simplehtmlguide.com
 
 Media
 
