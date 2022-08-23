@@ -32,7 +32,6 @@ img {
 
 .top-nav-list {
     display: inline-block;
-    display: hidden;
 }
 
 .link {
@@ -314,3 +313,13 @@ button:hover {
 }
 
 /* W3schools code ends here */
+
+.contact {
+    background-color: #393e46;
+    color: #eeeeee;
+    height: 5%;
+    width: 100%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 3%;
+}
