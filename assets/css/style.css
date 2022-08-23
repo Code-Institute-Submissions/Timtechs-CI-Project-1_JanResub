@@ -12,8 +12,7 @@ body {
 header h1 {
     position: relative;
     color: #0092ca;
-    top: 0vh;
-    font-size: 8vh;
+    font-size: 500%;
     text-align: center;
 }
 
@@ -24,11 +23,11 @@ img {
     margin-right: auto;
 }
 
-#top-nav {
-    position: relative;
+.top-nav {
+    position: absolute;
     text-align: center;
-    top: 12vh;
-    right: 20px;
+    top: 6.5%;
+    right: 8.5%;
 }
 
 .top-nav-list {
@@ -40,7 +39,8 @@ img {
     color: #0092ca;
     background-color: #393e46;
     margin: 10px;
-    font-size: 4vh;
+    font-size: 350%;
+    text-decoration: none;
 }
 
 body {
@@ -71,12 +71,27 @@ body {
         grid-template-columns: repeat(1, 1fr);
         top: 0;
     }
+
+    header h1 {
+        font-size: 300%;
+    }
+
+    .top-nav {
+        font-size: 50%;
+        top: 15%;
+        right: 11.5%;
+    }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 450px) {
     .grid-columns {
         grid-template-columns: repeat(3, 1fr);
         top: -10vh;
+    }
+
+    .top-nav {
+        top: 10%;
+        right: 15%;
     }
 }
 
@@ -94,17 +109,17 @@ body {
     }
 }
 
-#page-container {
+.page-container {
     position: relative;
     min-height: 100vh;
     overflow: auto;
 }
 
-#content-wrap {
+.content-wrap {
     padding-bottom: 5rem;
 }
 
-#footer {
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -114,7 +129,7 @@ body {
     font-size: 200%;
 }
 
-#footer a {
+.footer a {
     color: #222831;
 }
 
@@ -148,13 +163,13 @@ body {
     text-decoration: none;
 } 
 
-#soundpage-container {
+.soundpage-container {
     position: relative;
     min-height: 100vh;
     overflow: auto;
 }
 
-#sound-content-wrap {
+.sound-content-wrap {
     padding-bottom: 14rem;
 }
 
