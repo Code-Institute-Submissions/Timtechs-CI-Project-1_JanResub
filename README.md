@@ -1,14 +1,33 @@
-Timtechs Stageschool
+# Timtechs Stageschool
 
-Timtechs Stagschool is for anyone who is intrested in joining the event bussiness or just to have a fun hobby. The school is based in Stockholm, Sweden. The site is mostly about the different courses.
+### Timtechs Stagschool is for anyone who is intrested in joining the event bussiness or just to have a fun hobby. The school is based in Stockholm, Sweden. The site is mostly about the different courses.
 
-Features
+# Features
 
-Navigation bar
+## Existing Features
 
-<ul>
+* Navigation bar
+    * Featured on all five pages, the navigation bar includes links to the Home oage, Contact page and Sign Up page (some links are not included on all pages)
+    * This allows the user to navigate easily through the website on all devices without using back button.
 
-</ul>
+![navbar image](assets/images/navbar.jpg)
+
+* Landing page image
+    * The landing includes a title and a image fitting for the site.
+    * This image hopes to inspire the user to sign up by being abit raw and unusual for the audience.
+
+![landing page image](assets/images/landing-page.jpg)
+
+* Course section
+    * The course section includes all the avalible courses of the page.
+    * The user will see some witty comments that is also giving some information about the courses.
+
+![courses image](assets/images/courses-image.jpg)
+
+* Video section
+    * This section hopes to inspire the user to apply to one of the courses by showing a short video from a cirkus show
+
+
 
 Features left to implement
 
