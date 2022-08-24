@@ -72,8 +72,10 @@ body {
 }
 
 @media (min-width: 270px) {
-    .grid-columns .courses-outer {
+    .grid-columns {
         grid-template-columns: repeat(1, 1fr);
+        top: -5vh;
+        padding-bottom: 5%;
     }
 
     header h1 {
@@ -92,8 +94,10 @@ body {
         right: 8%;
     }
 
-    .video {
-        margin-bottom: 20%;
+    .video iframe {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
     }
 
     .button {
@@ -113,7 +117,7 @@ body {
     }
 
     .top-nav {
-        top: 13%;
+        top: 10%;
         right: 12%;
         font-size: 50%;
     }
@@ -121,7 +125,13 @@ body {
     .top-soundnav {
         font-size: 40%;
         top: 18%;
-        right:18%;
+        right: 18%;
+    }
+
+    .video iframe {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
     }
 
     .footer-div {
@@ -156,11 +166,10 @@ body {
         right: 28%;
     }
 
-    .video video {
+    .video iframe {
         margin-left: auto;
         margin-right: auto;
-        min-width: 100%;
-        min-height: 100%;
+        max-width: 90%;
     }
 
     .button {
@@ -186,11 +195,17 @@ body {
     .top-soundnav {
         font-size: 100%;
         top: 18%;
-        right:36%;
+        right: 36%;
     }
-    
+
     .button {
         font-size: 100%;
+    }
+
+    .courses-outer p {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
     }
 }
 
