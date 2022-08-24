@@ -30,6 +30,13 @@ img {
     right: 8.5%;
 }
 
+.top-soundnav {
+    position: absolute;
+    text-align: center;
+    top: 6.5%;
+    right: 8.5%;
+}
+
 .top-nav-list {
     display: inline-block;
 }
@@ -57,19 +64,16 @@ body {
 .grid-columns {
     position: relative;
     display: grid;
-    gap: 1rem;
-    height: 10em;
+    gap: 5px;
     top: -20vh;
-    max-width: 1300px;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 @media (min-width: 270px) {
-    .grid-columns {
+    .grid-columns .courses-outer {
         grid-template-columns: repeat(1, 1fr);
-        top: 0;
-        padding-bottom: 655%;
     }
 
     header h1 {
@@ -82,16 +86,26 @@ body {
         right: 8%;
     }
 
+    .top-soundnav {
+        font-size: 35%;
+        top: 15%;
+        right: 8%;
+    }
+
     .video {
         margin-bottom: 20%;
+    }
+
+    .button {
+        font-size: 40%;
     }
 }
 
 @media (min-width: 400px) {
     .grid-columns {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         top: -10vh;
-        padding-bottom: 100%;
+        padding-bottom: 5%;
     }
 
     header h1 {
@@ -99,9 +113,23 @@ body {
     }
 
     .top-nav {
-        top: 17%;
+        top: 13%;
         right: 12%;
         font-size: 50%;
+    }
+
+    .top-soundnav {
+        font-size: 40%;
+        top: 18%;
+        right:18%;
+    }
+
+    .footer-div {
+        padding-top: 2%;
+    }
+
+    .button {
+        font-size: 35%;
     }
 }
 
@@ -109,7 +137,7 @@ body {
     .grid-columns {
         grid-template-columns: repeat(3, 1fr);
         top: -10vh;
-        padding-bottom: 50%;
+        padding-bottom: 5%;
     }
 
     header h1 {
@@ -122,11 +150,21 @@ body {
         font-size: 85%;
     }
 
+    .top-soundnav {
+        font-size: 60%;
+        top: 18%;
+        right: 28%;
+    }
+
     .video video {
         margin-left: auto;
         margin-right: auto;
-        min-width: 200%;
-        min-height: 200%;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .button {
+        font-size: 40%;
     }
 }
 
@@ -144,6 +182,16 @@ body {
     .top-nav {
         font-size: 120%;
     }
+
+    .top-soundnav {
+        font-size: 100%;
+        top: 18%;
+        right:36%;
+    }
+    
+    .button {
+        font-size: 100%;
+    }
 }
 
 .page-container {
@@ -157,17 +205,18 @@ body {
 }
 
 /* fixed position and styling to footer */
-.footer {
-    position: absolute;
+.footer-div {
+    display: inline-block;
     bottom: 0;
     width: 100%;
     height: 2.5%;
     background-color: #0092ca;
     text-align: center;
     font-size: 200%;
+    padding-top: 2%;
 }
 
-.footer a {
+.footer-div a {
     color: #222831;
 }
 
@@ -314,6 +363,7 @@ button:hover {
 
 /* W3schools code ends here */
 
+/* styling and positioning the contact bar */
 .contact {
     background-color: #393e46;
     color: #eeeeee;
@@ -322,4 +372,18 @@ button:hover {
     margin-bottom: 5%;
     text-align: center;
     padding: 3%;
+    display: inline-block;
+}
+
+
+/* styling and postitioning of signup link*/
+.button {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #393e46;
+    margin-bottom: 2%;
+    padding: 1%;
+    border: 3px solid #0092ca;
 }
