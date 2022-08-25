@@ -25,8 +25,14 @@
 ![courses image](assets/images/courses-image.jpg)
 
 * Video section
-    * This section hopes to inspire the user to apply to one of the courses by showing a short video from a cirkus show
+    * This section hopes to inspire the user to apply to one of the courses by showing a short video from a cirkus show that the founder worked on.
 
+![video image](assets/images/video-image.jpg)
+
+* Contact section
+    * this is just for contacting us
+
+![contact image]()
 
 
 Features left to implement
