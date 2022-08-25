@@ -29,15 +29,48 @@
 
 ![video image](assets/images/video-image.jpg)
 
-* Contact section
-    * this is just for contacting us
+* Contact information
+    * This is just for contacting us
 
-![contact image]()
+![contact image](assets/images/contact-image.jpg)
 
+* The footer
+    * The footer includes links to relevant social media. The links open in a new tab for easy navigation.
+    * The footer is valuable to the user to stay connected with us om social media
 
-Features left to implement
+![footer image](assets/images/footer-image.jpg)
 
-Testing
+* The sound page
+    * The soundpage offers some more information about the course and a sign up button which leads to the signup page.
+    * This page is valuable to the user for deciding to take the course.
+
+![sound course image](assets/images/sound-course-image.jpg)
+
+* The lights page
+    * The lights page offers some more information about the course and a sign up button which leads to the signup page.
+    * This page is valuable to the user for deciding to take the course.
+
+![sound course image](assets/images/light-course-img.jpg)
+
+* Sign Up page
+    * This page have a form to create an account to the website
+    * There is also a confirmation page for when you have joined
+
+![sign up image](assets/images/signup-image.jpg)
+![confirmation image](assets/images/confirmation-image-readme.jpg)
+
+## Features left to implement
+
+* Stagehand, Dance, Sing and Acting pages
+* Images for the courses to stick to the bottom of the box
+* Contact link that takes you to the contact section on the homepage
+* Side menu so you kan reach everything from all pages
+* More videos to show different types of show/work
+
+## Testing
+
+* Validator Testing
+    *
 
 Unfixed Bugs
 
