@@ -32,6 +32,7 @@ img {
     display: inline-block;
 }
 
+/* styling the links */
 .link {
     color: #0092ca;
     background-color: #393e46;
@@ -44,6 +45,7 @@ body {
     background-color: #222831;
 }
 
+/* styling the course boxes on main page, this code was inspired by Kevin Powell */
 .columns {
     background-color: #393e46;
     border: 2px solid #0092ca;
@@ -52,6 +54,7 @@ body {
     text-align: center;
 }
 
+/* positioning the course boxes */
 .grid-columns {
     position: relative;
     display: grid;
@@ -61,6 +64,9 @@ body {
     margin-right: auto;
 }
 
+/* media queries which was inspired by W3C schools */
+
+/* for smaller screens 270px and up */
 @media (min-width: 270px) {
     .grid-columns {
         grid-template-columns: repeat(1, 1fr);
@@ -95,7 +101,7 @@ body {
         margin-bottom: 23%;
     }
 }
-
+ /* for small screens 400px and up */
 @media (min-width: 400px) {
     .grid-columns {
         grid-template-columns: repeat(2, 1fr);
@@ -131,6 +137,7 @@ body {
     }
 }
 
+/* for medium screens 600px and up */
 @media (min-width: 600px) {
     .grid-columns {
         grid-template-columns: repeat(3, 1fr);
@@ -174,6 +181,7 @@ body {
     }
 }
 
+/* for bigger screens 1700px and up */
 @media (min-width: 1700px) {
     .grid-columns {
         grid-template-columns: repeat(6, 1fr);
@@ -206,7 +214,7 @@ body {
     min-height: 100%;
 }
 
-/* fixed position and styling to footer */
+/* fixed position and styling to footer this code was inspired by Freecodecamp */
 .footer-div {
     display: inline-block;
     bottom: 0;

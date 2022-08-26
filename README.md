@@ -69,6 +69,8 @@ Timtechs Stagschool is for anyone who is intrested in joining the event bussines
 
 ## Testing
 
+* Tested the webpage on Firefox and Chrome without problems
+
 * Validator Testing
     * No errors were returned when passing throught the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftimtechs.github.io%2FCI-Project-1%2F)
     * No errors were returned when passing throught the official [(jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftimtechs.github.io%2FCI-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
@@ -78,6 +80,10 @@ Timtechs Stagschool is for anyone who is intrested in joining the event bussines
     * Made an image on [Am I Responsive](https://ui.dev/amiresponsive?url=https://timtechs.github.io/CI-Project-1/) to easier to see the different sizes.
 
 ![screen size image](assets/images/screen-sizes.jpg)
+
+## Technologies
+
+This webpage was constructed using HTML, CSS and also Balsamiq wireframes to build a blueprint for the pages.
 
 ## Unfixed Bugs
 
