@@ -87,6 +87,10 @@ body {
     .button {
         font-size: 40%;
     }
+
+    .container p {
+        font-size: 75%;
+    }
 }
 
 @media (min-width: 400px) {
@@ -316,11 +320,6 @@ button:hover {
     opacity: 1;
 }
 
-/* Extra styles for the cancel button */
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #850a01;
-}
 
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn,
@@ -336,6 +335,8 @@ button:hover {
     height: 50%;
     width: 50%;
     color: #eeeeee;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Clear floats */
