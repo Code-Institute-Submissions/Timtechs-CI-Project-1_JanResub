@@ -10,7 +10,6 @@ body {
 }
 
 header h1 {
-    position: relative;
     color: #0092ca;
     font-size: 500%;
     left: 2%;
@@ -91,6 +90,10 @@ body {
     .container p {
         font-size: 75%;
     }
+
+    .signup-form {
+        margin-bottom: 23%;
+    }
 }
 
 @media (min-width: 400px) {
@@ -122,6 +125,10 @@ body {
     .button {
         font-size: 35%;
     }
+
+    .signup-form {
+        margin-bottom: 13%;
+    }
 }
 
 @media (min-width: 600px) {
@@ -148,6 +155,22 @@ body {
 
     .button {
         font-size: 40%;
+    }
+
+    .signup-form {
+        margin-bottom: 23%;
+    }
+}
+
+@media (min-width: 900px) {
+    .signup-form {
+        margin-bottom: 37%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .signup-form {
+        margin-bottom: 10%;
     }
 }
 
@@ -180,13 +203,7 @@ body {
 }
 
 .page-container {
-    position: relative;
     min-height: 100%;
-    overflow: auto;
-}
-
-.content-wrap {
-    padding-bottom: 3%;
 }
 
 /* fixed position and styling to footer */
