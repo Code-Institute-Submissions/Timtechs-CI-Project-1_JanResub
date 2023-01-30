@@ -52,6 +52,12 @@ Timtechs Stagschool is for anyone who is intrested in joining the event bussines
 
 ![sound course image](assets/images/light-course-img.jpg)
 
+* The stagehand page
+    * The stagehand page offers some more information about the course and a sign up button which leads to the signup page.
+    * This page is valuable to the user for deciding to take the course.
+
+![stagehand course image](assets/images/stagehand-course-image.jpg)
+
 * Sign Up page
     * This page have a form to create an account to the website
     * There is also a confirmation page for when you have joined
@@ -61,7 +67,7 @@ Timtechs Stagschool is for anyone who is intrested in joining the event bussines
 
 ## Features left to implement
 
-* Stagehand, Dance, Sing and Acting pages
+* Dance, Sing and Acting pages
 * Images for the courses to stick to the bottom of the box
 * Contact link that takes you to the contact section on the homepage
 * Side menu so you kan reach everything from all pages
@@ -70,6 +76,7 @@ Timtechs Stagschool is for anyone who is intrested in joining the event bussines
 ## Testing
 
 * Tested the webpage on Firefox and Chrome without problems
+    * All links working 
 
 * Validator Testing
     * No errors were returned when passing throught the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftimtechs.github.io%2FCI-Project-1%2F)

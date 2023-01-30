@@ -9,9 +9,9 @@ body {
     height: 100%;
 }
 
-header h1 {
+.brand {
     color: #0092ca;
-    font-size: 500%;
+    font-size: 100%;
     left: 2%;
 }
 
@@ -52,6 +52,10 @@ body {
     color: #eeeeee;
     padding: 5px;
     text-align: center;
+}
+
+.orange {
+    color: orange;
 }
 
 /* positioning the course boxes */
@@ -184,7 +188,7 @@ body {
 /* for bigger screens 1700px and up */
 @media (min-width: 1700px) {
     .grid-columns {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         padding-bottom: 0%;
     }
 
@@ -302,7 +306,7 @@ input[type=password] {
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    background: #0092ca;
+    background: #eeeeee;
 }
 
 input[type=text]:focus,
